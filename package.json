@@ -1,0 +1,20 @@
+{
+  "name": "cron-job",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:savio-84/cron-job.git",
+  "author": "savio-84 <62775935+savio-84@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node-cron": "^3.0.0",
+    "express": "^4.17.1",
+    "node-cron": "^3.0.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.2"
+  }
+}
